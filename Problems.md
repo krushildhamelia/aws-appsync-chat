@@ -29,3 +29,7 @@ Unhandled Rejection (TypeError): Cannot read property 'hydrated' of undefined
         ::: Created a hydrated.js as per the issue https://github.com/awslabs/aws-mobile-appsync-sdk-js/issues/448
         ::: And made the changes in the index.js file to support the Loading and App components based on the Hydration online offline states...
 ```
+
+```
+AWS Lambda deploy answer as Y ::: when ampilfy init
+```
