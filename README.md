@@ -42,10 +42,6 @@ npm install -g @aws-amplify/cli
 ```sh
 git clone https://github.com/aws-samples/aws-appsync-chat.git
 ```
-Forked Repo
-``` forked repo
-git clone https://github.com/krushildhamelia/aws-appsync-chat.git
-```
 
 3. Install dependencies
 
