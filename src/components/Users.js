@@ -1,8 +1,9 @@
 import React from 'react'
-import { graphql, compose } from 'react-apollo'
+import { graphql } from 'react-apollo'
 import { css } from 'glamor'
 import { FaUser, FaPlus } from 'react-icons/fa'
 import { observer } from 'mobx-react'
+import * as compose from 'lodash.flowright';
 
 import { primary } from '../theme'
 import { listUsers, onCreateUser as OnCreateUser } from '../graphql'
