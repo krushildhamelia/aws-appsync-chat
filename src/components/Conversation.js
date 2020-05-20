@@ -1,9 +1,10 @@
 import React from 'react'
 
-import { compose, graphql } from 'react-apollo'
+import { graphql } from 'react-apollo'
 import { observer } from 'mobx-react'
 import { css } from 'glamor'
 import uuid from 'uuid/v4'
+import * as compose from 'lodash.flowright'
 
 import UserStore from '../mobx/UserStore'
 import { getConvo, createMessage as CreateMessage, onCreateMessage as OnCreateMessage } from '../graphql'
